@@ -4,7 +4,7 @@ import { getInjectionSiteForDate } from "../../helpers/getInjectionSiteForDate";
 
 export const TodayInjectionCard = () => {
   const today = new Date();
-  const formattedDate = today.toLocaleDateString("en-US", {
+  const formattedDate = today.toLocaleDateString("sv-SV", {
     weekday: "long",
     year: "numeric",
     month: "long",
