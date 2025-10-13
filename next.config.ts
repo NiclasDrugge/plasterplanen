@@ -1,7 +1,7 @@
 const isProd = process.env.NODE_ENV === "production";
 const nextConfig = {
-  assetPrefix: isProd ? "/plasterplanen/" : "",
-  basePath: isProd ? "/plasterplanen" : "",
+  assetPrefix: "",
+  basePath: "",
   reactStrictMode: true,
   images: {
     unoptimized: true, // Disable default image optimization
