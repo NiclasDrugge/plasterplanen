@@ -5,7 +5,7 @@ export const Header = () => {
         <h1 className="text-2xl font-semibold text-sky-700 tracking-tight">
           Plåsterplanen
         </h1>
-        <span className="text-sm text-gray-500">v1.0</span>
+        <span className="text-sm text-gray-500">v1.1</span>
       </div>
     </header>
   );
