@@ -8,8 +8,8 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-gradient-to-b from-sky-50 to-white text-gray-800">
       <Header />
 
-      <section className="flex flex-1 flex-col gap-6 items-center justify-center">
-        <div className="flex items-start gap-4">
+      <section className="flex flex-1 flex-col gap-6 items-center justify-center mx-4">
+        <div className="flex flex-col md:flex-row gap-4 items-center md:items-start">
           <InjectionDayCard label="Igår" offset={-1} />
           <TodayInjectionCard />
           <InjectionDayCard label="Imorgon" offset={1} />
